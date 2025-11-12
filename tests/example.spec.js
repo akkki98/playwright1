@@ -11,4 +11,4 @@ test('Search in Bing and check results', async ({ page }) => {
   await page.press('input[name="q"]', 'Enter');
   await expect(page).toHaveTitle(/Playwright/);
 });
-//test9
+//test10
